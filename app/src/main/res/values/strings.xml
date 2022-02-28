@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Practica1</string>
     <string name="version">Versión 1.0</string>
     <string name="autor">Autor: Francisco Jaime</string>
     <string name="spinner_hint">¿Qué deseas calcular?</string>
@@ -13,10 +12,30 @@
     <string name="nothing_form">No hay selección</string>
     <string name="error_valores">Los campos deben estar llenos</string>
     <string name="resultado_titulo">El resultado de la operación es:</string>
-    <string name="formula_titulo">Se selecciono la formula</string>
+    <string name="description_initial">Math Tricks es una app que le ayudara a calcular el volumen y área de las siguinete figuras: cilindro, cono o prisma</string>
+    <string name="description_cilindro">
+        Un cilindro es un sólido tridimensional con 2 bases, 2 bordes y 3 caras. Tienes que
+        calcular el volumen de un cilindro en unidades cúbicas de medida. La fórmula para calcular
+        el volumen de un cilindro es: V = Πr² x h
+    </string>
+    <string name="description_prisma">
+        Un prisma triangular tiene dos caras paralelas que son rectángulos, así las otras caras
+        son rectángulos también. Calculamos el volumen de prismas triangulares casi de la misma
+        forma que encontramos el volumen de prismas rectangulares, la formula es: V = Ab x h
+    </string>
+    <string name="description_cono">
+        El área de superficie total de un cono es la suma del área de su base y la superficie
+        lateral (lado). El área lateral de superficie de un cono es el área de la superficie lateral
+        o lado solamente. A = Πr x g
+    </string>
+    <string name="item1">Volúmen del cilindro</string>
+    <string name="item2">Área de un cono</string>
+    <string name="item3">Volúmen de un Prisma</string>
     <string-array name="opciones_spinner">
-        <item>Volúmen del cilindro</item>
-        <item>Área de un cono</item>
-        <item>Volúmen de un Prisma</item>
+        <item>@string/item1</item>
+        <item>@string/item2</item>
+        <item>@string/item3</item>
     </string-array>
+    <string name="app_name">Practica 1</string>
+    <string name="button">Calcular</string>
 </resources>

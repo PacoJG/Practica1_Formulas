@@ -12,6 +12,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/pinck_app"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,6 +24,7 @@
             android:id="@+id/tilSpinner_options"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/biorhyme"
             android:hint="@string/hint_spinner"
             android:inputType="none"
             android:textSize="16sp" />
@@ -43,44 +45,47 @@
         android:id="@+id/tvDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:fontFamily="@font/biorhyme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42" />
+        app:layout_constraintVertical_bias="0.43"
+        tools:text="Aqui se coloca la descripcion de la formula" />
 
     <EditText
         android:id="@+id/etVarA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number"
-        android:maxLength="6"
-        android:textAlignment="center"
-        android:textColor="@color/black"
         android:hint="@string/nothing_form"
+        android:inputType="number"
+        android:maxLength="8"
+        android:textAlignment="center"
+        android:textColor="@color/green_app"
+        android:textColorHint="@color/green_app"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDescription"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <EditText
         android:id="@+id/etVarB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/nothing_form"
         android:inputType="number"
         android:maxLength="6"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:hint="@string/nothing_form"
+        android:textColor="@color/green_app"
+        android:textColorHint="@color/green_app"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.70" />
+        app:layout_constraintTop_toBottomOf="@+id/etVarA"
+        app:layout_constraintVertical_bias="0.120000005" />
 
     <Button
         android:id="@+id/btnCalcular"
@@ -88,15 +93,15 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/pinck_app"
         android:fontFamily="@font/biorhyme"
-        android:text="Calcular"
+        android:onClick="click"
+        android:text="@string/button"
         android:textColor="@color/brown_app"
         android:textSize="20sp"
-        android:onClick="click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89" />
+        app:layout_constraintVertical_bias="0.9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

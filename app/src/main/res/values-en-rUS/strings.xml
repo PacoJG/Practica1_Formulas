@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practice 1</string>
+    <string name="version">Version 1.0</string>
+    <string name="autor">Author: Francisco Jaime</string>
+    <string name="spinner_hint">What do you want to calculate?</string>
+    <string name="hint_spinner">What do you want to calculate?</string>
+    <string name="formula1_var1">base radius</string>
+    <string name="formula2_var1">radius</string>
+    <string name="formula3_var1">base area</string>
+    <string name="formula1_var2">height</string>
+    <string name="formula3_var2">height</string>
+    <string name="formula2_var2">generatrix</string>
+    <string name="nothing_form">no selection</string>
+    <string name="error_valores">Fields must be filled</string>
+    <string name="resultado_titulo">The result of the operation is:</string>
+    <string name="description_initial">Math Tricks is an app that will help you calculate the volume and area of ​​the following figures: cylinder, cone or prism</string>
+    <string name="description_cilindro">A cylinder is a three-dimensional solid with 2 bases, 2 edges, and 3 faces. You have to calculate the volume of a cylinder in cubic units of measure. The formula to calculate the volume of a cylinder is: V = Πr² x h</string>
+    <string name="description_prisma">A triangular prism has two parallel faces that are rectangles, so the other faces are rectangles as well. We calculate the volume of triangular prisms in almost the same way that we find the volume of rectangular prisms, the formula is: V = Ab x h</string>
+    <string name="description_cono">The total surface area of ​​a cone is the sum of the area of ​​its base and the lateral (side) surface. The lateral surface area of ​​a cone is the area of ​​the lateral or side surface only. A = Πr x g</string>
+    <string name="item1">Cylinder volume</string>
+    <string name="item2">Area of ​​a cone</string>
+    <string name="item3">Volume of a Prism</string>
+    <string name="button">Calculate</string>
+</resources>
