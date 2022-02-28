@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Practica1</string>
+    <string name="version">Versión 1.0</string>
+    <string name="autor">Autor: Francisco Jaime</string>
+    <string name="spinner_hint">¿Qué deseas calcular?</string>
+    <string name="hint_spinner">¿Qué deseas calcular?</string>
+    <string name="formula1_var1">Radio de la base</string>
+    <string name="formula2_var1">Radio</string>
+    <string name="formula3_var1">Área de la base</string>
+    <string name="formula1_var2">Altura</string>
+    <string name="formula2_var2">Generatriz</string>
+    <string name="formula3_var2">Altura</string>
+    <string name="nothing_form">No hay selección</string>
+    <string name="error_valores">Los campos deben estar llenos</string>
+    <string-array name="opciones_spinner">
+        <item>Volúmen del cilindro</item>
+        <item>Área de un cono</item>
+        <item>Volúmen de un Prisma</item>
+    </string-array>
+</resources>
