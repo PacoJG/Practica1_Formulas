@@ -88,6 +88,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
             val intent = Intent(this, Results_screen::class.java)
             val parametros = Bundle()
             parametros.putString("item_position", item_position.toString())
+            parametros.putString("operacion",binding.tvDescription.text.toString())
             parametros.putString("varA", binding.etVarA.hint.toString())
             parametros.putInt("var1", var1)
             parametros.putString("varB", binding.etVarB.hint.toString())
