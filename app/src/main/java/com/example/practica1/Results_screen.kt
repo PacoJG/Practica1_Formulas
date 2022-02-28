@@ -24,8 +24,10 @@ class Results_screen : AppCompatActivity() {
         val result = bundle?.getFloat("resultado",0.0F)
 
         binding.tvFormula.text = operation
-        binding.tvVarAResultado.text = varA
-        binding.tvVarBResultado.text = varB
+        binding.tvVarATitulo.text = varA
+        binding.tvVarAResult.text = var1.toString()
+        binding.tvVarBTitulo.text = varB
+        binding.tvVarBResult.text = var2.toString()
         binding.tvResultado.text = result.toString()
 
 

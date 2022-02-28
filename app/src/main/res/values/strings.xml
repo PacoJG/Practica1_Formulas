@@ -12,6 +12,8 @@
     <string name="formula3_var2">Altura</string>
     <string name="nothing_form">No hay selección</string>
     <string name="error_valores">Los campos deben estar llenos</string>
+    <string name="resultado_titulo">El resultado de la operación es:</string>
+    <string name="formula_titulo">Se selecciono la formula</string>
     <string-array name="opciones_spinner">
         <item>Volúmen del cilindro</item>
         <item>Área de un cono</item>
